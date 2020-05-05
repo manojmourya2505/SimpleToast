@@ -6,15 +6,15 @@ import android.widget.Toast;
 
 public class SplashModule {
 
-    public static void printToast(Activity activity, String value, boolean Long) {
+    public static void printToast(Activity activity, String values, boolean Long) {
 
         if (Long == true) {
 
-            Toast.makeText(activity, "" + value, Toast.LENGTH_LONG).show();
+            Toast.makeText(activity, "" + values, Toast.LENGTH_LONG).show();
 
         } else {
 
-            Toast.makeText(activity, "" + value, Toast.LENGTH_SHORT).show();
+            Toast.makeText(activity, "" + values, Toast.LENGTH_SHORT).show();
 
         }
 
