@@ -1,0 +1,2 @@
+include ':app', ':splashscreen'
+rootProject.name='SplashScreenModule'
